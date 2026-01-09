@@ -36,7 +36,7 @@ pipeline {
             steps {
                 echo 'CPPcheck...'
                 sh 'apt-get install -y cppcheck'
-                sh 'cppcheck --enable=all src/'
+                sh 'cppcheck --enable=all app/'
             }
         }
     }
