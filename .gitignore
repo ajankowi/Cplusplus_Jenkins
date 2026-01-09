@@ -32,3 +32,6 @@ Makefile
 *.su
 *.gch
 *.pch
+
+#Tests
+Testing/
