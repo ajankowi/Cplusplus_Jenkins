@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Setup') {
             steps {
-                echo 'Installing CMake...'
+                echo 'Installing CMake, wait...'
                 sh 'apt-get update && apt-get install -y cmake'
             }
         }
